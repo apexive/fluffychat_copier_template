@@ -42,7 +42,6 @@ docs/tailwind.css
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 
-
 /key.jks
 /android/key.properties
 **/android/app/.cxx
@@ -60,3 +59,8 @@ ios/Runner.ipa
 /macos/out
 .vs
 olm
+
+# FVM Version Cache
+.fvm/
+.fvmrc
+.vscode/settings.json
