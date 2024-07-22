@@ -64,8 +64,10 @@ android {
     }
     buildTypes {
         debug {
-            signingConfig signingConfigs.debug
-            versionNameSuffix "-debug"
+          signingConfig signingConfigs.debug
+          versionNameSuffix "-debug"
+          minifyEnabled false
+          shrinkResources false
         }
         release {
             signingConfig signingConfigs.release
